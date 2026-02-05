@@ -1,0 +1,47 @@
+section ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+}
+
+
+section ul li {
+    height: 27rem;
+    width: 27rem;
+    color: rgba(0,0,0,0);
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: bold;
+    background-position: center;
+    transition: 0.9s; /* чтобы эффект был плавным */
+}
+
+section ul li#item1 {
+    background-image: url(../img/protog/Хаос.png);
+    
+}
+
+section ul li#item2 {
+    background-image: url(../img/protog/Гея.png);
+
+}
+
+section ul li#item3 {
+    background-image: url(../img/protog/Тартар.png);
+
+}
+
+section ul li#item4 {
+    background-image: url(../img/protog/Эрос.png);
+
+}
+
+section ul li#item1:hover,
+section ul li#item2:hover,
+section ul li#item3:hover,
+section ul li#item4:hover {
+    background-image: none;
+    background-color: #484646;
+    color: antiquewhite;
+}
