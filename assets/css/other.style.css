@@ -1,6 +1,26 @@
+section {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section > :first-child {
+  flex: 0 0 100%;
+}
+
 article {
-  flex: 0 0 50%;
-  box-shadow: none;
+  gap: 1rem;
+  flex: 0 0 calc((100% - 1rem) / 2);
+  text-align: justify;
+  margin-right: 0.5rem;
+}
+
+article div {
+  background-color: aliceblue;
+  border-radius: 1%;
+  padding: 10%;
+  position: sticky; /* Блок прилипает при достижении заданного отступа и остаётся в видимой области, пока не закончится его родительский контейнер */
+  top: 16px;
 }
 
 dl {
@@ -17,6 +37,7 @@ dt {
 dd {
   display: flex;
   flex-direction: column;
+  text-indent: 2em;
 }
 
 dd ul {

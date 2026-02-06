@@ -1,0 +1,20 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 3px 3px 8px #676464;
+}
+
+section ul {
+  list-style: none;
+  text-align: center;
+}
+
+main {
+  background-image: url(../img/1.webp);
+  background-size: cover;
+  background-position: center;
+}
